@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="../css/global.css" />
+<link rel="stylesheet" href="../css/contact-form.css" />
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <script src="../js/globals.js" defer></script>
+  <link rel="stylesheet" href="../css/contact-form.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="form-container">
+    <h2>Contact Form</h2>
+    <form action="mailto:nikhshay@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send" />
+    </form>
+  </div>
+</body>
+</html>

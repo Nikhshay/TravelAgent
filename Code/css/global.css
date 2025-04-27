@@ -1,0 +1,59 @@
+:root {
+    --primary-font: 'Arial, sans-serif';
+    --text-color: white;
+    --background-overlay: rgba(0, 0, 0, 0.5);
+    --button-background: white;
+    --button-text-color: black;
+    --button-hover-background: #ccc;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+  }
+  
+  html, body {
+    height: 100%;
+  }
+
+  .site-footer {
+    text-align: center;
+    color: var(--text-color);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    z-index: 2;
+  }
+
+  .social {
+    margin-bottom: 20px; /* Adds space below the social icons */
+    }
+  
+  .social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid black; /* Black border */
+    border-radius: 50%;
+    color: white; /* White icon color */
+    background-color: black; /* Black background */
+    text-decoration: none;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.social a:hover {
+    background-color: red; /* Red background on hover */
+    border-color: red; /* Red border on hover */
+    color: white; /* White icon color remains the same */
+}
+
+.social i {
+    font-size: 18px;
+}
