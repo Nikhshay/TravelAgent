@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .custom-marker {
+    background-color: black;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border: 2px solid white;
+  }
+  
+  /* Progress bar styling */
+#progress-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 9999;
+}
+
+#progress-bar {
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 5px;
+  height: 12px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #00ff88, #0077ff);
+  transition: width 1s ease;
+  border-radius: 20px;
+}
