@@ -113,5 +113,7 @@ function updateTravelProgress() {
   }, speed);
 }
 
-// Call it
-updateTravelProgress();
+// Call it AFTER the DOM is ready
+window.onload = () => {
+  updateTravelProgress();
+};

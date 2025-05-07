@@ -166,9 +166,7 @@ const travelData = [
   {
     continent: "North America",
     country: "United States of America",
-    cities: [
-      { name: "New York", coords: [40.7128, -74.0060] }
-    ]
+    cities: []
   },
   {
     continent: "North America",
